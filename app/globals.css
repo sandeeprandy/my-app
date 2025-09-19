@@ -3,6 +3,13 @@
   --foreground: #171717;
 }
 
+@import '../styles/icons.css';
+@import '../styles/style.css';
+@import '../styles/responsive.css';
+@import '../styles/grid.min.css';
+
+/* Other CSS code from Next.js can remain below */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -16,13 +23,13 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 * {
   box-sizing: border-box;

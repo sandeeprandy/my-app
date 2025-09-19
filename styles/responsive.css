@@ -1,0 +1,501 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .col-xs-auto {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .col-xs-1 {
+        flex: 0 0 auto;
+        width: 8.33333333%;
+    }
+
+    .col-xs-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .col-xs-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-xs-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .col-xs-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
+    .col-xs-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-xs-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .col-xs-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .col-xs-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    .col-xs-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+
+    .col-xs-11 {
+        flex: 0 0 auto;
+        width: 91.66666667%;
+    }
+
+    .col-xs-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+
+    .shop-by-category {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .shop-by-category h2 {
+        margin-bottom: 0.4rem;
+    }
+
+    .shop-by-concern {
+        padding-top: 1rem;
+    }
+
+    .shop-by-concern-img {
+        min-height: 15rem;
+        max-width: 35rem;
+    }
+
+    .sbc-acne {
+        left: -7px;
+        top: 1.3rem;
+    }
+
+    .sbc-lines {
+        right: -0.59rem;
+        top: 2.6rem;
+    }
+
+    .sbc-pigmentation {
+        left: -2.3rem;
+        bottom: 5.6rem;
+    }
+
+    .sbc-dry {
+        right: -1.8rem;
+        bottom: -9px;
+    }
+
+    .shop-by-concern a {
+        padding: 0.03rem 0.20rem;
+        font-size: 0.60rem;
+    }
+
+    .shop-by-concern-hair-bimg {
+        min-height: 15rem;
+        max-width: 35rem;
+    }
+
+    .sbc-dry-air {
+        left: -1rem;
+        top: 0.5rem;
+    }
+
+    .sbc-freezy-hair {
+        right: -2.2rem;
+        top: 4.2rem;
+    }
+
+    .best-sellers {
+        padding-top: 0;
+        padding-bottom: 5rem;
+    }
+
+    .bs-tab-nav {
+        gap: 0.5rem;
+    }
+
+    .bs-tab-link {
+        padding: 0.4rem 0.5rem;
+        font-size: 12px;
+    }
+
+    .testimonial {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .product-info {
+    padding: 0 1rem 1.5rem;
+    }
+    footer h3 {
+    margin-bottom: 0.6rem;
+    }
+    footer ul {
+    line-height: 1.7;
+    padding-bottom: 2rem;
+}
+.text-center {
+    text-align:left !important;
+}
+.ab-banner-one {
+  background-image: url("/images/About-Bannerr-1111.png");
+  background-size: 600px;
+  min-height: 25rem;
+  background-position: center right;
+}
+
+.ab-banner-two {
+  background-image: url("/images/About-Banner-2.png");
+  background-size: 600px;
+  min-height: 25rem;
+  background-position: center right;
+}
+
+.ab-banner-three {
+  background-image: url("/images/About-Banner-3.png");
+  background-size: 600px;
+  min-height: 25rem;
+  background-position: center right;
+}
+
+.ab-banner-text h1 {
+    font-size: 2.2rem;
+}
+.ab-banner-text h2 {
+    font-size: 2.2rem;
+    max-width: 75%;
+}
+.ab-banner-text {
+  padding-left: 1rem;
+  padding-top: 0;
+}
+.ab-btn{
+    padding: 6px 20px;
+}
+.true-itself img{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+.ab-logos {
+    padding-top: 0;
+    margin: 2rem auto;
+}
+.ab-logos h3 {
+    font-size: 0.6rem;
+}
+
+.beauty {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.vision {
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+.vision img {
+    border-radius: 30px;
+    padding: 2rem 0;
+}
+.vision h3 {
+    font-size: 1.6rem;
+}
+.vision-text {
+    max-width: 100%;
+}
+.contact-banner {
+    background-size: cover;
+    min-height: 157px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shop-header {
+    padding-top: 1rem;
+}
+.shop-header h1 {
+    font-size: 1.5rem;
+}
+.product-title {
+    font-size: 1.7rem;
+}
+.product-details{
+overflow: hidden;
+}
+    .product-short-description ul {
+        gap: 1rem;
+    }
+    .wishlist-page {
+    padding-top: 2rem;
+    }
+    .wishlist-page h1 {
+    font-size: 2rem;
+    }
+    .pages {
+    padding-top: 1rem;
+    }
+    .pages h1 {
+    font-size: 2rem;
+    }
+    .pages h2 {
+    font-size: 1.5rem;
+    }
+    .checkout .left-section {
+     padding: 2rem 0 !important;
+}
+.checkout .right-section {
+    margin-bottom: 2rem;
+}
+}
+
+
+/* Small devices (landscape phones, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     .checkout .left-section {
+     padding: 2rem 0 !important;
+}
+.checkout .right-section {
+    margin-bottom: 2rem;
+}
+     .wishlist-page h1 {
+    font-size: 2rem;
+    }
+     .wishlist-page {
+    padding-top: 2rem;
+    }
+    .shop-by-category {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .shop-by-category h2 {
+        margin-bottom: 0.4rem;
+    }
+
+    .shop-by-concern {
+        padding-top: 1rem;
+    }
+
+    .shop-by-concern-img {
+        min-height: 22rem;
+        max-width: 35rem;
+    }
+
+    .sbc-acne {
+        left: -7px;
+        top: 2.8rem;
+    }
+
+    .sbc-lines {
+        right: -1.69rem;
+        top: 4.6rem;
+    }
+
+    .sbc-pigmentation {
+        left: -4.22rem;
+        bottom: 8.2rem;
+    }
+
+    .sbc-dry {
+        right: -2.8rem;
+        bottom: -3px;
+    }
+
+    .shop-by-concern a {
+        padding: 0.03rem 0.20rem;
+        font-size: 0.60rem;
+    }
+
+    .shop-by-concern-hair-bimg {
+        min-height: 22rem;
+        max-width: 35rem;
+    }
+
+    .sbc-dry-air {
+        left: -2.6rem;
+        top: 1.9rem;
+    }
+
+    .sbc-freezy-hair {
+        right: -4.3rem;
+        top: 7.2rem;
+    }
+
+    .best-sellers {
+        padding-top: 0;
+        padding-bottom: 5rem;
+    }
+
+    .bs-tab-nav {
+        gap: 2.5rem;
+    }
+
+    .bs-tab-link {
+        padding: 0.4rem 0.5rem;
+        font-size: 15px;
+    }
+
+    .testimonial {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    
+.ab-banner-one {
+  background-image: url("/images/About-Bannerr-1111.png");
+  background-size: 600px;
+  min-height: 25rem;
+  background-position: center right;
+}
+
+.ab-banner-two {
+  background-image: url("/images/About-Banner-2.png");
+  background-size:  600px;
+  min-height: 25rem;
+  background-position: center right;
+}
+.ab-banner-three {
+  background-image: url("/images/About-Banner-3.png");
+  background-size: 600px;
+  min-height: 25rem;
+  background-position: center right;
+}
+.ab-banner-text h1 {
+    font-size: 2.2rem;
+}
+.ab-banner-text h2 {
+    font-size: 2.2rem;
+    max-width: 75%;
+}
+.ab-banner-text {
+  padding-left: 1rem;
+  padding-top: 0;
+}
+.ab-btn{
+    padding: 6px 20px;
+}
+.true-itself img{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+.ab-logos {
+    padding-top: 0;
+    margin: 2rem auto;
+}
+.ab-logos h3 {
+    font-size: 0.6rem;
+}
+
+.beauty {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.vision {
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+.vision img {
+    border-radius: 30px;
+    padding: 2rem 0;
+}
+.vision h3 {
+    font-size: 1.6rem;
+}
+.vision-text {
+    max-width: 100%;
+}
+.cart-body {
+    min-height: auto;
+}
+.contact-banner {
+    background-size: cover;
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shop-header {
+    padding-top: 1rem;
+}
+.shop-header h1 {
+    font-size: 1.5rem;
+}
+.product-title {
+        font-size: 1.7rem;
+}
+.product-details{
+    overflow: hidden;
+}
+ .pages {
+    padding-top: 1rem;
+    }
+    .pages h1 {
+    font-size: 2rem;
+    }
+    .pages h2 {
+    font-size: 1.5rem;
+    }
+
+}
+
+/* Medium devices (tablets, ≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+      .checkout .left-section {
+     padding: 2rem 0 !important;
+}
+.checkout .right-section {
+    margin-bottom: 2rem;
+}
+    .bs-tab-nav {
+    gap: 1rem;
+}
+    .product-title {
+        font-size: 1.5rem;
+    }
+        .product-short-description {
+        font-size: 12px;
+    }
+
+.bs-tab-link {
+    padding: 0.5rem 1.3rem;
+    font-size: 15px;
+}
+.contact-banner {
+    background-size: cover;
+    min-height: 317px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-details{
+    overflow: hidden;
+}
+.product-title {
+        font-size: 1.2rem !important;
+}
+}
+
+/* Large devices (desktops, ≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, ≥1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* XXL devices (very large desktops, ≥1400px) */
+@media (min-width: 1400px) {}

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-export default function CartPopups({ isOpen, onClose }) {
+export default function CartPopup({ isOpen, onClose }) {
   const [cartItems, setCartItems] = useState([
     { id: 1, name: 'Avyya Essential Toner', variant: '1000ml', price: 1599, qty: 1, img: '/images/p1.jpg' },
     { id: 2, name: 'Avyya Essential Toner', variant: '500ml', price: 999, qty: 1, img: '/images/p1.jpg' },

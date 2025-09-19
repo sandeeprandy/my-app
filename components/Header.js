@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SearchPopup from './Popups/SearchPopup';
 import UserPopup from './Popups/UserPopup';
-import CartPopup from './Popups/cartPopup';
+import CartPopups from './Popups/temp';
 
 export default function Header() {
   const [openSearch, setOpenSearch] = useState(false);
@@ -169,7 +169,7 @@ export default function Header() {
   />
 )}
      {isCartOpen && (
-        <CartPopup isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+        <CartPopups isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
       )}
     </nav>
   );
